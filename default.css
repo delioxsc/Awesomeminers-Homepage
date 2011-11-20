@@ -1,3 +1,5 @@
+/*(c) David Gruber 2011 */
+
 body {
 	/*background-image: url('img/background.png');*/
 	font-family: Calibri,Helvetica;
@@ -33,10 +35,14 @@ h1 {
 	margin-right: auto;
 	margin-left: auto;
 	/*border: thin solid #918f61; */
-	-moz-box-shadow: 3px 3px 2px #808080;
-	-webkit-box-shadow: 3px 3px 2px #808080;
-	box-shadow: 3px 3px 2px #808080;
+	box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
+	-moz-box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
+	webkit-box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
 }
+
 
 .content_header {
 	background-image: url('img/header.png');
@@ -51,10 +57,14 @@ h1 {
 	margin-right: auto;
 	margin-left: auto;
 	/*border: thin solid #918f61;*/
-	-moz-box-shadow: 3px 3px 2px #808080;
-	-webkit-box-shadow: 3px 3px 2px #808080;
-	box-shadow: 3px 3px 2px #808080;
+	box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
+	-moz-box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
+	webkit-box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
 }
+
 
 .content_menu_bar{
 	background-image: url('img/dings.png');
@@ -65,9 +75,12 @@ h1 {
 	margin-right: auto;
 	margin-left: auto;
 	/*border: thin solid #918f61;*/
-	-moz-box-shadow: 3px 3px 2px #808080;
-	-webkit-box-shadow: 3px 3px 2px #808080;
-	box-shadow: 3px 3px 2px #808080;
+	box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
+	-moz-box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
+	webkit-box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
 }
 
 
@@ -85,13 +98,14 @@ h1 {
 	margin-right: auto;
 	margin-left: auto;
 	/* border: thin solid #918f61 */
-	-moz-box-shadow: 3px 3px 2px #808080;
-	-webkit-box-shadow: 3px 3px 2px #808080;
-	box-shadow: 3px 3px 2px #808080;
+	box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
+	-moz-box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
+	webkit-box-shadow:   3px  3px  3px  #aaa,
+                  -3px  3px  3px  #aaa;
+				  
 }
-
-
-
 
 
 .content_links {
