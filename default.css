@@ -1,0 +1,106 @@
+body {
+	/*background-image: url('img/background.png');*/
+	font-family: Calibri,Helvetica;
+	background-color: #E5E5E5;
+}
+
+
+h1 {
+	color: #ff8c00;
+}
+
+
+.transparent {
+	opacity: .6;
+}
+
+
+.transparent:hover {
+	opacity: 1;
+}
+
+
+.content_dings_top {
+	background-image: url('img/dings.png');
+	background-repeat: no-repeat;
+	/*text-align: left;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;*/
+	margin-top: -15px;
+	width: 1000px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: thin solid #918f61; */
+	-moz-box-shadow: 3px 3px 2px #808080;
+	-webkit-box-shadow: 3px 3px 2px #808080;
+	box-shadow: 3px 3px 2px #808080;
+}
+
+.content_header {
+	background-image: url('img/header.png');
+	background-repeat: no-repeat;
+	/*text-align: left;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;*/
+	width: 1000px;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: thin solid #918f61;*/
+	-moz-box-shadow: 3px 3px 2px #808080;
+	-webkit-box-shadow: 3px 3px 2px #808080;
+	box-shadow: 3px 3px 2px #808080;
+}
+
+.content_menu_bar{
+	background-image: url('img/dings.png');
+	background-repeat: no-repeat;
+	/*text-align: left;*/
+	width: 1000px;
+	height: 85px;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: thin solid #918f61;*/
+	-moz-box-shadow: 3px 3px 2px #808080;
+	-webkit-box-shadow: 3px 3px 2px #808080;
+	box-shadow: 3px 3px 2px #808080;
+}
+
+
+.content_text{
+	background-color: #C5DCFE;
+	/*background-image: url('img/dings.png');
+	background-repeat: no-repeat;*/
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	/*margin-top: 50px;*/
+	width: 960px;
+	/*height: 85px;*/
+	margin-right: auto;
+	margin-left: auto;
+	/* border: thin solid #918f61 */
+	-moz-box-shadow: 3px 3px 2px #808080;
+	-webkit-box-shadow: 3px 3px 2px #808080;
+	box-shadow: 3px 3px 2px #808080;
+}
+
+
+
+
+
+.content_links {
+	text-align: left;
+	padding-top: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 500px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;	
+}
