@@ -109,14 +109,14 @@ h1 {
 .content_text{
 	background-color: #C5DCFE;
 	text-align: left;
-	padding-top: 5px;
+	padding-top: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
-	width: 700px;
-	/*margin-top: 10px;
-	margin-right: auto;
-	margin-left: 5px;*/
+	width: 710px;
+	margin-top: 15px;
+	/*margin-right: auto;*/
+	/*margin-left: 0px;*/
 	float: left;
 	border: thin solid #918f61
 	/*box-shadow:   5px  5px  5px  #aaa,
@@ -131,13 +131,13 @@ h1 {
 .content_sidebar{
 	background-color: #C5DCFE;
 	text-align: left;
-	padding-top: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-top: 10px;
+	padding-left: 15x;
+	padding-right: 5px;
 	padding-bottom: 10px;
 	width: 200px;
-	/*margin-top: 10px;
-	margin-right: 5px;
+	margin-top: 15px;
+	/*margin-right: 5px;
 	margin-left: auto;*/
 	float: right;
 	border: thin solid #918f61
