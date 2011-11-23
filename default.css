@@ -47,13 +47,13 @@ h1 {
 .content_header {
 	background-image: url('img/header.png');
 	background-repeat: no-repeat;
-	/*text-align: left;
-	padding-top: 5px;
+	/*text-align: left;*/
+	padding-top: 30px;
 	padding-left: 20px;
-	padding-right: 20px;
+	/*padding-right: 20px;
 	margin-top: 50px;*/
-	width: 1000px;
-	height: 250px;
+	width: 980px;
+	height: 220px;
 	margin-right: auto;
 	margin-left: auto;
 	/*border: thin solid #918f61;*/
@@ -160,4 +160,4 @@ h1 {
 	margin-right: auto;
 	margin-left: auto;	
 	/* border: thin solid #918f61 */
-}
+}}
