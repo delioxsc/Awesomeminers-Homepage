@@ -12,19 +12,9 @@ h1 {
 }
 
 
-.transparent {
-	opacity: .6;
-}
-
-
-.transparent:hover {
-	opacity: 1;
-}
-
-
-.content_dings_top {
-	background-image: url('img/dings.png');
-	background-repeat: no-repeat;
+.content_pattern_top {
+	background-image: url('media/images/pattern.png');
+	background-repeat:repeat-y
 	margin-top: -15px;
 	width: 1000px;
 	height: 50px;
@@ -45,9 +35,8 @@ h1 {
 
 
 .content_header {
-	background-image: url('img/header.png');
+	background-image: url('media/images/header.png');
 	background-repeat: no-repeat;
-	
 	padding-top: 30px;
 	padding-left: 30px;
 	width: 970px;
@@ -68,8 +57,8 @@ h1 {
 
 
 .content_menu_bar{
-	background-image: url('img/dings.png');
-	background-repeat: no-repeat;
+	background-image: url('media/images/pattern.png');
+	background-repeat:repeat-y;
 	width: 1000px;
 	height: 85px;
 	margin-right: auto;
@@ -156,10 +145,136 @@ h1 {
 	padding-top: 1px;
 	padding-left: 20px;
 	padding-right: 20px;
-	width: 500px;
+	width: 1000px;
 	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;	
 	/* border: thin solid #918f61*/
-}	/* border: thin solid #918f61 */
+	/* border: thin solid #918f61 */
+}
+
+
+#menu-icons {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	clear: both;
+}
+
+
+	#menu-icons * {
+		margin: 5px 4px;
+		display: inline-block;
+	}
+
+	#menu-icons div[sprite] {
+		vertical-align: middle;
+		opacity: 0.5;
+	}
+
+	#menu-icons div[sprite]:hover {
+		opacity: 1;
+	}
+
+	
+div[sprite] {
+	display: inline-block;
+}
+
+div[sprite=icon-rules] {
+	background: url(media/images/icons/icons.png) no-repeat;
+	background-position: 0 0;
+	width: 100px;
+	height: 50px;
+}
+
+div[sprite=icon-info] {
+	background: url(media/images/icons/icons.png) no-repeat;
+	background-position: -100px 0;
+	width: 100px;
+	height: 50px;
+}
+
+div[sprite=icon-map] {
+	background: url(media/images/icons/icons.png) no-repeat;
+	background-position: -200px 0;
+	width: 100px;
+	height: 50px;
+}
+
+div[sprite=icon-blog] {
+	background: url(media/images/icons/icons.png) no-repeat;
+	background-position: -300px 0;
+	width: 100px;
+	height: 50px;
+}
+
+div[sprite=icon-ts3] {
+	background: url(media/images/icons/icons.png) no-repeat;
+	background-position: -400px 0;
+	width: 100px;
+	height: 50px;
+}
+
+
+#logos {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	clear: both;
+}
+
+
+	#logos * {
+		margin: 2px 0px;
+		display: inline-block;
+	}
+
+	#logos div[sprite] {
+		vertical-align: middle;
+		opacity: 0.5;
+	}
+
+	#logos div[sprite]:hover {
+		opacity: 1;
+	}
+
+	
+div[sprite] {
+	display: inline-block;
+}
+
+div[sprite=logo-nginx] {
+	background: url(media/images/icons/logos.png) no-repeat;
+	background-position: 0 0;
+	width: 110px;
+	height: 35px;
+}
+
+div[sprite=logo-django] {
+	background: url(media/images/icons/logos.png) no-repeat;
+	background-position: -110px 0;
+	width: 110px;
+	height: 35px;
+}
+
+div[sprite=logo-python] {
+	background: url(media/images/icons/logos.png) no-repeat;
+	background-position: -220px 0;
+	width: 110px;
+	height: 35px;
+}
+
+div[sprite=logo-minecraft] {
+	background: url(media/images/icons/logos.png) no-repeat;
+	background-position: -330px 0;
+	width: 110px;
+	height: 35px;
+}
+
+div[sprite=logo-bukkit] {
+	background: url(media/images/icons/logos.png) no-repeat;
+	background-position: -440px 0;
+	width: 110px;
+	height: 35px;
 }
